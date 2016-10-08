@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Interactive Game</title>
+        <meta charset="utf-8">
+        <script>
+        function isTouchDevice(){
+                return true == ("ontouchstart" in window || window.DocumentTouch && document instanceof DocumentTouch);
+        }
+        if (isTouchDevice()===true) {
+                location.href='/mobile/index.html';
+        }
+        </script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src = "script.js"></script>
+</head>
+
+<body>
+        <h1>Rock-paper-scissors</h1>
+        <h2>Hit 'space' to play!</h2>
+        <div class = "footer" >
+                <h3>Thank you for choosing<h3>
+                <img src = "logo.png" id = "im">
+                <h3 id = "exc">&copy ExcitingLab 2016</h3>
+                <h4 id = "found"> Founded by Anton Astakhov</h4>
+        </div>
+</body>
+</htlm>

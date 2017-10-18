@@ -91,3 +91,13 @@ a:focus {
     font-weight: normal;
     font-style: normal;
 }
+
+
+.my-button:hover {
+    /*transform: scale(1.2);*/
+    /*font-size: 20px;*/
+}
+
+.my-socials:hover {
+
+}

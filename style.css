@@ -38,26 +38,56 @@ input:focus {
     /*border-color: #e74e3e;*/
 /*}*/
 
-.service-box{
-    -webkit-transition: all 200ms ease-in-out;
-    -ms-transition: all 200ms ease-in-out;
-    -moz-transition: all 200ms ease-in-out;
-    -o-transition: all 200ms ease-in-out;
-    transition: all 200ms ease-in-out;
-}
 
-.service-box:hover {
-    -webkit-transform: scale(1.15);
-    -moz-transform: scale(1.15);
-    -ms-transform: scale(1.15);
-    -o-transform: scale(1.15);
-    transform: scale(1.15);
-}
 
 a {
     text-decoration:none;
+    color: black;
 }
 
 a:hover {
     text-decoration:none;
+    color: black;
+}
+
+a:focus {
+    text-decoration:none;
+    color: black;
+}
+
+
+.service-box{
+    -webkit-transition: all 200ms ease-in-out!important;
+    -ms-transition: all 200ms ease-in-out!important;
+    -moz-transition: all 200ms ease-in-out!important;
+    -o-transition: all 200ms ease-in-out!important;
+    transition: all 200ms ease-in-out!important;
+}
+
+.service-box:hover {
+    -webkit-transform: scale(1.15)!important;
+    -moz-transform: scale(1.15)!important;
+    -ms-transform: scale(1.15)!important;
+    -o-transform: scale(1.15)!important;
+    transform: scale(1.15)!important;
+}
+
+@font-face {
+    font-family: 'Raleway Extra Light';
+    src: url('Raleway-ExtraLight.eot');
+    src: url('Raleway-ExtraLight.eot?#iefix') format('embedded-opentype'),
+    url('Raleway-ExtraLight.woff') format('woff'),
+    url('Raleway-ExtraLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway Thin';
+    src: url('Raleway-Thin.eot');
+    src: url('Raleway-Thin.eot?#iefix') format('embedded-opentype'),
+    url('Raleway-Thin.woff') format('woff'),
+    url('Raleway-Thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }

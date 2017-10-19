@@ -9,7 +9,7 @@ footer {
 form input {
     background-color: transparent;
     border: none;
-    border-bottom: 1px solid #eb6a5c;
+    border-bottom: 2px solid #eb6a5c;
     color: white;
 }
 
@@ -98,6 +98,21 @@ a:focus {
     /*font-size: 20px;*/
 }
 
-.my-socials:hover {
+.my-socials {
+    -webkit-transition: all 200ms ease-in-out;
+    -ms-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
 
+.my-socials:hover {
+    /*background-color: #E74E3E;*/
+    /*transition: all .2s ease-in-out;*/
+
+    -webkit-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    -o-transform: scale(1.4);
+    transform: scale(1.4);
 }

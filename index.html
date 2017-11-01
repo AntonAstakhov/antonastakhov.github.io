@@ -24,7 +24,8 @@
     <!-- Custom styles for this template -->
     <link href="css/creative.min.css" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa:300&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+    <!--<link href="https://fonts.googleapis.com/css?family=Comfortaa:300&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300&amp;subset=cyrillic" rel="stylesheet">
 
     <link href="style.css" rel="stylesheet">
 
@@ -39,13 +40,6 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#e74e3e">
     <meta name="theme-color" content="#ffffff">
 
-    <style>
-      @font-face {
-        font-family: TTDugs; /* Имя шрифта */
-        src: url('TTDrugs-Thin.ttf'); /* Путь к файлу со шрифтом */
-      }
-    </style>
-
   </head>
 
   <body id="page-top">
@@ -57,7 +51,7 @@
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive" style="font-family: 'Raleway Extra Light', cursive;">
+        <div class="collapse navbar-collapse my-navbar" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#news">НОВИНИ</a>
@@ -79,36 +73,25 @@
       </div>
     </nav>
 
-    <header class="masthead" style = "background-image: url('background.png');">
+    <header class="masthead">
       <div class="header-content">
         <div class="header-content-inner">
-          <p style="font-family: TTDugs; font-size: 20px; font-weight: 900;"><span style = "opacity: 1; font-size: 16px; ">КНУ ІМЕНІ ТАРАСА ШЕВЧЕНКА</span><br>ФАКУЛЬТЕТ ІНФОРМАЦІЙНИХ ТЕХНОЛОГІЙ</p>
-          <h1 id="homeHeading" style="font-family: Arial, sans-serif; font-weight: normal;">НАВЧАННЯ<br>ЧЕРЕЗ<br>ПРАКТИКУ</h1>
-          <hr style="border-color: #e74e3e;">
-          <a class="btn btn-primary btn-xl js-scroll-trigger my-button" href="#news" style="background-color: #e74e3e; font-family: 'Raleway Extra Light', cursive, sans-serif;">ДІЗНАТИСЯ БІЛЬШЕ</a>
+          <p class="my-header-text"><span class="my-header-text-span">КНУ ІМЕНІ ТАРАСА ШЕВЧЕНКА</span><br>ФАКУЛЬТЕТ ІНФОРМАЦІЙНИХ ТЕХНОЛОГІЙ</p>
+          <h1 id="homeHeading">НАВЧАННЯ<br>ЧЕРЕЗ<br>ПРАКТИКУ</h1>
+          <hr class="my-hr">
+          <a class="btn btn-primary btn-xl js-scroll-trigger my-button my-button" href="#news">ДІЗНАТИСЯ БІЛЬШЕ</a>
         </div>
       </div>
     </header>
 
-    <!--<section class="bg-primary" id="about">-->
-      <!--<div class="container">-->
-        <!--<div class="row">-->
-          <!--<div class="col-lg-8 mx-auto text-center">-->
-            <!--<h2 class="section-heading text-white">We've got what you need!</h2>-->
-            <!--<hr class="light">-->
-            <!--<p class="text-faded">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>-->
-            <!--<a class="btn btn-default btn-xl js-scroll-trigger" href="#services">Get Started!</a>-->
-          <!--</div>-->
-        <!--</div>-->
-      <!--</div>-->
-    <!--</section>-->
+
 
     <section id="news">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading" style="font-family: TTDugs;">ОСТАННІ НОВИНИ<br><span style="font-family: Arial;">ФАКУЛЬТЕТУ</span></h2>
-            <hr class="primary" style="border-color: #e74e3e;">
+            <h2 class="section-heading">ОСТАННІ НОВИНИ<br><span class="section-heading-span">ФАКУЛЬТЕТУ</span></h2>
+            <hr class="primary my-hr-primary">
           </div>
         </div>
       </div>
@@ -117,40 +100,40 @@
 
           <div class="col-lg-3 col-md-6 text-center">
             <a href="#">
-            <div class="service-box sr-button" style="box-shadow: 0 5px 5px rgba(0,0,0,0.5);">
-              <img src="1.png" alt="image" width="200" height="200" style="padding-top: 10px; padding-bottom: 5px;"/>
-              <h3 style="font-family: TTDugs">ЗАГОЛОВОК</h3>
-              <p class="text-muted" style="font-family: Roboto;">text text text text text text text text text text text text text text text text text text text text text </p>
+            <div class="service-box sr-button my-service-box">
+              <img src="1.png" alt="image" width="200" height="200" class="my-service-box-image"/>
+              <h3 class="service-box-header">ЗАГОЛОВОК</h3>
+              <p class="text-muted">text text text text text text text text text text text text text text text text text text text text text </p>
             </div>
             </a>
           </div>
 
           <div class="col-lg-3 col-md-6 text-center">
             <a href="#">
-            <div class="service-box sr-button" style="box-shadow: 0 5px 5px rgba(0,0,0,0.5);">
-              <img src="1.png" alt="image" width="200" height="200" style="padding-top: 10px; padding-bottom: 5px;"/>
-              <h3 style="font-family: TTDugs">ЗАГОЛОВОК</h3>
-              <p class="text-muted" style="font-family: Roboto;">text text text text text text text text text text text text text text text text text text text text text </p>
+            <div class="service-box sr-button my-service-box">
+              <img src="1.png" alt="image" width="200" height="200" class="my-service-box-image"/>
+              <h3 class="service-box-header">ЗАГОЛОВОК</h3>
+              <p class="text-muted">text text text text text text text text text text text text text text text text text text text text text </p>
             </div>
             </a>
           </div>
 
           <div class="col-lg-3 col-md-6 text-center">
             <a href="#">
-            <div class="service-box sr-button" style="box-shadow: 0 5px 5px rgba(0,0,0,0.5);">
-              <img src="1.png" alt="image" width="200" height="200" style="padding-top: 10px; padding-bottom: 5px;"/>
-              <h3 style="font-family: TTDugs">ЗАГОЛОВОК</h3>
-              <p class="text-muted" style="font-family: Roboto;">text text text text text text text text text text text text text text text text text text text text text </p>
+            <div class="service-box sr-button my-service-box">
+              <img src="1.png" alt="image" width="200" height="200" class="my-service-box-image"/>
+              <h3 class="service-box-header">ЗАГОЛОВОК</h3>
+              <p class="text-muted">text text text text text text text text text text text text text text text text text text text text text </p>
             </div>
             </a>
           </div>
 
           <div class="col-lg-3 col-md-6 text-center">
             <a href="#">
-            <div class="service-box sr-button" style="box-shadow: 0 5px 5px rgba(0,0,0,0.5);">
-              <img src="1.png" alt="image" width="200" height="200" style="padding-top: 10px; padding-bottom: 5px;"/>
-              <h3 style="font-family: TTDugs">ЗАГОЛОВОК</h3>
-              <p class="text-muted" style="font-family: Roboto;">text text text text text text text text text text text text text text text text text text text text text </p>
+            <div class="service-box sr-button my-service-box">
+              <img src="1.png" alt="image" width="200" height="200" class="my-service-box-image"/>
+              <h3 class="service-box-header">ЗАГОЛОВОК</h3>
+              <p class="text-muted">text text text text text text text text text text text text text text text text text text text text text </p>
             </div>
             </a>
           </div>
@@ -161,17 +144,15 @@
 
 
 
-
-
-    <section id="fit" style="background-color: #ececec;">
+    <section id="fit">
 
       <div class="container">
         <div class="row">
           <div class="col-md-6 vcenter">
             <div class = "my-photo-padding" >
-                  <h2 class="section-heading" style="font-family: TTDugs;">МЕТА СТВОРЕННЯ<br><span style="font-family: Arial;">ФАКУЛЬТЕТУ</span></h2>
-                  <hr class="primary" style="border-color: #e74e3e; margin-left: 0; ">
-                  <p class="text-muted" style="font-family: Roboto; text-align: justify; padding-right: 30px;">
+                  <h2 class="section-heading">МЕТА СТВОРЕННЯ<br><span class="section-heading-span">ФАКУЛЬТЕТУ</span></h2>
+                  <hr class="primary my-hr-left">
+                  <p class="text-muted my-fit-about">
                     Факультет інформаційних технологій є структурним підрозділом Київського національного університету імені Тараса Шевченка. Він створений наказом Ректора від 20 листопада 2013 року і є наймолодшим факультетом університету.<br><br>
                     Мета створення факультету: виведення Київського національного університету імені Тараса Шевченка в лідери з підготовки фахівців у галузі інформаційних технологій.<br><br>
                     Місія факультету: формування кадрового потенціалу України для виведення її в світові лідери у галузі інформаційних технологій.
@@ -179,11 +160,9 @@
             </div>
           </div>
 
-          <div class="col-md-6 vcenter sr-button" style="">
+          <div class="col-md-6 vcenter sr-button">
 
-
-
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="margin-top: -100px; margin-bottom: -100px;">
+            <div id="carouselExampleIndicators" class="carousel slide my-slide" data-ride="carousel">
               <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -210,16 +189,14 @@
 
 
 
-
-
     <section id="calendar">
 
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-left">
-            <h2 class="section-heading" style="font-family: TTDugs;">КАЛЕНДАР<br><span style="font-family: Arial;">ПОДІЙ</span></h2>
-            <hr class="primary" style="border-color: #e74e3e; margin-left: 0">
-            <h5 style="font-family: TTDugs; padding-bottom: 20px;">ДІЗНАЙСЯ, ЩО ВІДБУВАЄТЬСЯ НА ФАКУЛЬТЕТІ</h5>
+            <h2 class="section-heading">КАЛЕНДАР<br><span class="section-heading-span">ПОДІЙ</span></h2>
+            <hr class="primary my-hr-left">
+            <h5 class="my-calendar-subheading">ДІЗНАЙСЯ, ЩО ВІДБУВАЄТЬСЯ НА ФАКУЛЬТЕТІ</h5>
           </div>
         </div>
       </div>
@@ -354,100 +331,19 @@
               </div>
             </a>
           </div>
-
-          <!--<div class="col-lg-3 col-sm-6">-->
-            <!--<a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">-->
-              <!--<img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">-->
-              <!--<div class="portfolio-box-caption">-->
-                <!--<div class="portfolio-box-caption-content">-->
-                  <!--<div class="project-category text-faded">-->
-                    <!--Category-->
-                  <!--</div>-->
-                  <!--<div class="project-name">-->
-                    <!--Project Name-->
-                  <!--</div>-->
-                <!--</div>-->
-              <!--</div>-->
-            <!--</a>-->
-          <!--</div>-->
-          <!--<div class="col-lg-3 col-sm-6">-->
-            <!--<a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">-->
-              <!--<img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">-->
-              <!--<div class="portfolio-box-caption">-->
-                <!--<div class="portfolio-box-caption-content">-->
-                  <!--<div class="project-category text-faded">-->
-                    <!--Category-->
-                  <!--</div>-->
-                  <!--<div class="project-name">-->
-                    <!--Project Name-->
-                  <!--</div>-->
-                <!--</div>-->
-              <!--</div>-->
-            <!--</a>-->
-          <!--</div>-->
-          <!--<div class="col-lg-3 col-sm-6">-->
-            <!--<a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">-->
-              <!--<img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">-->
-              <!--<div class="portfolio-box-caption">-->
-                <!--<div class="portfolio-box-caption-content">-->
-                  <!--<div class="project-category text-faded">-->
-                    <!--Category-->
-                  <!--</div>-->
-                  <!--<div class="project-name">-->
-                    <!--Project Name-->
-                  <!--</div>-->
-                <!--</div>-->
-              <!--</div>-->
-            <!--</a>-->
-          <!--</div>-->
-          <!--<div class="col-lg-4 col-sm-6">-->
-            <!--<a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">-->
-              <!--<img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">-->
-              <!--<div class="portfolio-box-caption">-->
-                <!--<div class="portfolio-box-caption-content">-->
-                  <!--<div class="project-category text-faded">-->
-                    <!--Category-->
-                  <!--</div>-->
-                  <!--<div class="project-name">-->
-                    <!--Project Name-->
-                  <!--</div>-->
-                <!--</div>-->
-              <!--</div>-->
-            <!--</a>-->
-          <!--</div>-->
-          <!--<div class="col-lg-4 col-sm-6">-->
-            <!--<a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">-->
-              <!--<img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">-->
-              <!--<div class="portfolio-box-caption">-->
-                <!--<div class="portfolio-box-caption-content">-->
-                  <!--<div class="project-category text-faded">-->
-                    <!--Category-->
-                  <!--</div>-->
-                  <!--<div class="project-name">-->
-                    <!--Project Name-->
-                  <!--</div>-->
-                <!--</div>-->
-              <!--</div>-->
-            <!--</a>-->
-          <!--</div>-->
         </div>
       </div>
     </section>
 
-    <!--<div class="call-to-action bg-dark">-->
-      <!--<div class="container text-center">-->
-        <!--<h2>Free Download at Start Bootstrap!</h2>-->
-        <!--<a class="btn btn-default btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Download Now!</a>-->
-      <!--</div>-->
-    <!--</div>-->
+
 
     <section id="info">
 
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading" style="font-family: TTDugs;">ІНФОРМАЦІЯ ДЛЯ<br><span style="font-family: Arial;">АБІТУРІЄНТІВ</span></h2>
-            <hr class="primary" style="border-color: #e74e3e;">
+            <h2 class="section-heading">ІНФОРМАЦІЯ ДЛЯ<br><span class="section-heading-span">АБІТУРІЄНТІВ</span></h2>
+            <hr class="primary my-hr-primary">
           </div>
         </div>
       </div>
@@ -456,42 +352,42 @@
         <div class="row">
 
           <div class="col-lg-3 col-md-6 text-center">
-            <a href="">
-            <div class="service-box sr-button" style="box-shadow: 0 5px 5px rgba(0,0,0,0.5);">
-              <img src="1.png" alt="image" width="200" height="200" style="padding-top: 10px; padding-bottom: 5px;"/>
-              <h3 style="font-family: TTDugs">ЗАГОЛОВОК</h3>
-              <p class="text-muted" style="font-family: Roboto;">text text text text text text text text text text text text text text text text text text text text text </p>
-            </div>
+            <a href="#">
+              <div class="service-box sr-button my-service-box">
+                <img src="1.png" alt="image" width="200" height="200" class="my-service-box-image"/>
+                <h3 class="service-box-header">ЗАГОЛОВОК</h3>
+                <p class="text-muted">text text text text text text text text text text text text text text text text text text text text text </p>
+              </div>
             </a>
           </div>
 
           <div class="col-lg-3 col-md-6 text-center">
-            <a href="">
-            <div class="service-box sr-button" style="box-shadow: 0 5px 5px rgba(0,0,0,0.5);">
-              <img src="1.png" alt="image" width="200" height="200" style="padding-top: 10px; padding-bottom: 5px;"/>
-              <h3 style="font-family: TTDugs">ЗАГОЛОВОК</h3>
-              <p class="text-muted" style="font-family: Roboto;">text text text text text text text text text text text text text text text text text text text text text </p>
-            </div>
+            <a href="#">
+              <div class="service-box sr-button my-service-box">
+                <img src="1.png" alt="image" width="200" height="200" class="my-service-box-image"/>
+                <h3 class="service-box-header">ЗАГОЛОВОК</h3>
+                <p class="text-muted">text text text text text text text text text text text text text text text text text text text text text </p>
+              </div>
             </a>
           </div>
 
           <div class="col-lg-3 col-md-6 text-center">
-            <a href="">
-            <div class="service-box sr-button" style="box-shadow: 0 5px 5px rgba(0,0,0,0.5);">
-              <img src="1.png" alt="image" width="200" height="200" style="padding-top: 10px; padding-bottom: 5px;"/>
-              <h3 style="font-family: TTDugs">ЗАГОЛОВОК</h3>
-              <p class="text-muted" style="font-family: Roboto;">text text text text text text text text text text text text text text text text text text text text text </p>
-            </div>
+            <a href="#">
+              <div class="service-box sr-button my-service-box">
+                <img src="1.png" alt="image" width="200" height="200" class="my-service-box-image"/>
+                <h3 class="service-box-header">ЗАГОЛОВОК</h3>
+                <p class="text-muted">text text text text text text text text text text text text text text text text text text text text text </p>
+              </div>
             </a>
           </div>
 
           <div class="col-lg-3 col-md-6 text-center">
-            <a href="">
-            <div class="service-box sr-button" style="box-shadow: 0 5px 5px rgba(0,0,0,0.5);">
-              <img src="1.png" alt="image" width="200" height="200" style="padding-top: 10px; padding-bottom: 5px;"/>
-              <h3 style="font-family: TTDugs">ЗАГОЛОВОК</h3>
-              <p class="text-muted" style="font-family: Roboto;">text text text text text text text text text text text text text text text text text text text text text </p>
-            </div>
+            <a href="#">
+              <div class="service-box sr-button my-service-box">
+                <img src="1.png" alt="image" width="200" height="200" class="my-service-box-image"/>
+                <h3 class="service-box-header">ЗАГОЛОВОК</h3>
+                <p class="text-muted">text text text text text text text text text text text text text text text text text text text text text </p>
+              </div>
             </a>
           </div>
 
@@ -499,46 +395,27 @@
       </div>
     </section>
 
-    <section id="contact" style="background-color: #f2f3f7;">
+
+
+    <section id="contact">
 
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading" style="font-family: TTDugs;"><span style="font-family: Arial;">КОНТАКТИ</span></h2>
-            <hr class="primary" style="border-color: #e74e3e;">
+            <h2 class="section-heading"><span class="section-heading-span">КОНТАКТИ</span></h2>
+            <hr class="primary my-hr-primary">
           </div>
         </div>
       </div>
 
       <div class="container">
 
-        <!--<div class="row">-->
-          <!--<div class="col-lg-8 mx-auto text-center">-->
-            <!--<h2 class="section-heading">КОНТАКТЫ</h2>-->
-            <!--<hr class="primary">-->
-            <!--<p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>-->
-          <!--</div>-->
-        <!--</div>-->
-        <!--<div class="row">-->
-          <!--<div class="col-lg-4 ml-auto text-center">-->
-            <!--<i class="fa fa-phone fa-3x sr-contact"></i>-->
-            <!--<p>123-456-6789</p>-->
-          <!--</div>-->
-          <!--<div class="col-lg-4 mr-auto text-center">-->
-            <!--<i class="fa fa-envelope-o fa-3x sr-contact"></i>-->
-            <!--<p>-->
-              <!--<a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a>-->
-            <!--</p>-->
-          <!--</div>-->
-        <!--</div>-->
-
-
         <div class="row vcenter">
 
-          <div class="col-md-6 text-left sr-contact" style="padding-left: 50px;">
+          <div class="col-md-6 text-left sr-contact my-contact-left">
             <div class="my">
-              <h3 class="my-contact" style="font-family: Arial;">НАША АДРЕСА</h3>
-              <p class="contact-detail" style="font-family: Roboto;">
+              <h3 class="my-contact">НАША АДРЕСА</h3>
+              <p class="contact-detail">
                 Вул. Ванди Василевської<br>
                 буд. 24<br>
                 місто Київ
@@ -546,23 +423,23 @@
             </div>
 
             <div class="my">
-              <h3 class="my-contact" style="font-family: Arial;">НОМЕР ТЕЛЕФОНУ</h3>
-              <p class="contact-detail" style="font-family: Roboto;">
+              <h3 class="my-contact">НОМЕР ТЕЛЕФОНУ</h3>
+              <p class="contact-detail">
                 Приймальна декана:<br>
                 481-45-07
               </p>
             </div>
 
             <div class="my">
-              <h3 class="my-contact" style="font-family: Arial;">EMAIL</h3>
-              <p class="contact-detail" style="font-family: Roboto;">
+              <h3 class="my-contact">EMAIL</h3>
+              <p class="contact-detail">
                 <a href="mailto:fit@univ.net.ua">fit@univ.net.ua</a>
               </p>
             </div>
           </div>
 
-          <div class="col-md-6 text-center sr-contact"  style="">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.2264134460606!2d30.471851716012658!3d50.455508394880944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce80bb14c36b%3A0x5c4eb5067e6b48c6!2z0LLRg9C70LjRhtGPINCS0LDQvdC00Lgg0JLQsNGB0LjQu9C10LLRgdGM0LrQvtGXLCAyNCwg0JrQuNGX0LIsINCj0LrRgNCw0LjQvdCw!5e0!3m2!1sru!2sru!4v1507570562892" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <div class="col-md-6 text-center sr-contact">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.2264134460606!2d30.471851716012658!3d50.455508394880944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce80bb14c36b%3A0x5c4eb5067e6b48c6!2z0LLRg9C70LjRhtGPINCS0LDQvdC00Lgg0JLQsNGB0LjQu9C10LLRgdGM0LrQvtGXLCAyNCwg0JrQuNGX0LIsINCj0LrRgNCw0LjQvdCw!5e0!3m2!1sru!2sru!4v1507570562892" width="600" height="450" frameborder="0" allowfullscreen></iframe>
           </div>
 
         </div>
@@ -575,28 +452,28 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-md-6 text-left" style="margin-top: 25px;">
+          <div class="col-md-6 text-left my-footer">
             <form>
-              <label style="color: #eb6a5c; font-size: 14px; font-family: Arial; width: 100%;">ПІДПИСАТИСЯ НА НОВИНИ ФІТУ<br>
-                <input type="email" name="email" placeholder="Введіть Ваш email" style="padding-top: 10px; width: 90%; padding-right: 27px;">
-                <button type="submit" style="background: transparent; border: 0;margin-left: -27px;">
+              <label>ПІДПИСАТИСЯ НА НОВИНИ ФІТУ<br>
+                <input type="email" name="email" placeholder="Введіть Ваш email">
+                <button type="submit" class="my-submit-button">
                   <img src="redarrow.png" width="17" height="12"/>
                 </button>
               </label>
             </form>
           </div>
 
-          <div class="col-md-6 text-center" style="margin-top: 25px;">
-            <p style="color: #eb6a5c; font-size: 14px; font-family: Arial;">ФІТ У СОЦІАЛЬНИХ МЕРЕЖАХ</p>
+          <div class="col-md-6 text-center my-footer">
+            <p class="my-socials-header">ФІТ У СОЦІАЛЬНИХ МЕРЕЖАХ</p>
             <div class="text-center">
 
-              <div class="my-socials" style="width: 25px; height: 25px;display: inline-block; margin-left: 10px; margin-right: 10px;">
+              <div class="my-socials">
                 <a href="https://www.facebook.com/fit.knu.ua"><img src="facebook.png" alt="social" width="13" height="25"/></a>
               </div>
-              <div class="my-socials" style="width: 25px; height: 25px;display: inline-block; margin-left: 10px; margin-right: 10px;">
+              <div class="my-socials">
                 <a href="https://www.youtube.com/channel/UCYd8V0r8qzfxHdkf7ZS2qfQ" ><img src="youtube.png" alt="social" width="22" height="25"/></a>
               </div>
-              <div class="my-socials" style="width: 25px; height: 25px;display: inline-block; margin-left: 10px; margin-right: 10px;">
+              <div class="my-socials">
                 <a href="https://vk.com/knu_fit"><img src="vk.png" alt="social" width="35" height="22"/></a>
               </div>
 
@@ -605,21 +482,10 @@
 
         </div>
 
-        <h6 style="font-family: Arial; font-size: 10px; color: #868686;  margin-top: 30px; margin-bottom: -15px;">&copy; Факультет інформаційних технологій КНУ імені Тараса Шевченка, 2017</h6>
-
-        <!--<ul class="list-inline">-->
-          <!--<li class="list-inline-item">-->
-            <!--<a href="#">Privacy</a>-->
-          <!--</li>-->
-          <!--<li class="list-inline-item">-->
-            <!--<a href="#">Terms</a>-->
-          <!--</li>-->
-          <!--<li class="list-inline-item">-->
-            <!--<a href="#">FAQ</a>-->
-          <!--</li>-->
-        <!--</ul>-->
+        <h6 class="my-copyright">&copy; Факультет інформаційних технологій КНУ імені Тараса Шевченка, 2017</h6>
       </div>
     </footer>
+
 
 
     <script src="script.js"></script>

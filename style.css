@@ -255,3 +255,10 @@ input:focus {
     margin-top: 30px;
     margin-bottom: -15px;
 }
+
+@media screen and (max-width: 768px) {
+    .nav-item:hover, .nav-item:focus, .nav-item:active {
+        background-color: transparent!important;
+    }
+}
+

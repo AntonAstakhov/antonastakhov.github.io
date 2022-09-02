@@ -1,0 +1,32 @@
+User-Agent: *
+Disallow: /page25231804.html
+Disallow: /payment
+Disallow: /page25376230.html
+Disallow: /2
+Disallow: /page25375734.html
+Disallow: /ua
+Disallow: /page25203215.html
+Disallow: /page25237907.html
+Disallow: /page25240220.html
+Disallow: /page26250476.html
+Disallow: /ig
+Disallow: /page26320424.html
+Disallow: /paypal
+Disallow: /page26320530.html
+Disallow: /success
+Disallow: /page26320545.html
+Disallow: /fail
+Disallow: /tilda/form*
+Disallow: /tilda/rec*
+Disallow: /tilda/click*
+Disallow: /tilda/scroll*
+Disallow: /tilda/popup*
+Disallow: /tilda/cart*
+Disallow: /tilda/product*
+Disallow: /tilda/event*
+Disallow: /*_escaped_fragment_*
+Disallow:
+
+
+Sitemap: https://antonastakhov.com/sitemap.xml
+Host: https://antonastakhov.com
